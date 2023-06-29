@@ -29,7 +29,7 @@ const SearchList = () => {
         const selectedItem = InputFilter[activeIndex];
         if (selectedItem) {
           const id = selectedItem.id;
-          navigate(`product/${id}`);
+          navigate(`/product/${id}`);
         }
       }
     };

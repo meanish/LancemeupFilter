@@ -38,7 +38,7 @@ function App() {
           <BrowserRouter>
             <Routes>
               <Route path="/lancemeup" element={<Home />} />
-              <Route path="lancemeup/product/:id" element={<SingleProduct />} />
+              <Route path="/product/:id" element={<SingleProduct />} />
             </Routes>
           </BrowserRouter>
         </div>

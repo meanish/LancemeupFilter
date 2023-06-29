@@ -34,7 +34,7 @@ const Products = () => {
                       <NavLink
                         key={index}
                         className="card"
-                        to={`product/${val.id}`}
+                        to={`/product/${val.id}`}
                       >
                         <figure>
                           <img src={val.image} alt={val.title} />
