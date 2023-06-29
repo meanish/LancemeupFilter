@@ -17,7 +17,7 @@ const Filterbar = () => {
           <TitleFilter />
         </div>
         <div className="company_logo">
-          <NavLink className="logo" to="/lancemeup">
+          <NavLink className="logo" to="/">
             <img src={logoImage} alt="logo.png" className="logo_img" />
           </NavLink>
         </div>

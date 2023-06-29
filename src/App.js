@@ -37,7 +37,7 @@ function App() {
           <GlobalStyles />
           <BrowserRouter>
             <Routes>
-              <Route path="/lancemeup" element={<Home />} />
+              <Route path="/" element={<Home />} />
               <Route path="/product/:id" element={<SingleProduct />} />
             </Routes>
           </BrowserRouter>
