@@ -6,7 +6,6 @@ import PriceFIlter from "./Filter/PriceFIlter";
 import { FilterbarStyle } from "../../components/Home/FIlterbar.styled";
 import { GlobalProduct } from "../../context/ProductContext";
 import Button from "@mui/material/Button";
-import logoImage from "../../images/logo2.png";
 
 const Filterbar = () => {
   const { clearFilter } = GlobalProduct();
@@ -18,7 +17,7 @@ const Filterbar = () => {
         </div>
         <div className="company_logo">
           <NavLink className="logo" to="/">
-            <img src={logoImage} alt="logo.png" className="logo_img" />
+            {/* <img src={logoImage} alt="logo.png" className="logo_img" /> */}
           </NavLink>
         </div>
         <div className="custom_filter">
